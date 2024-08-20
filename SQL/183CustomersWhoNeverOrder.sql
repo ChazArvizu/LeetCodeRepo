@@ -53,4 +53,5 @@ Output:
 
 SELECT C.name Customers
 FROM Customers C
-WHERE C.id NOT IN (SELECT O.customerID FROM Orders O)
+WHERE C.id NOT IN (SELECT O.customerID FROM Orders O);
+

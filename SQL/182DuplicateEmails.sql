@@ -35,4 +35,5 @@ Explanation: a@b.com is repeated two times.
 SELECT P.email as email
 FROM Person P
 GROUP BY P.email
-HAVING COUNT(P.email) > 1
+HAVING COUNT(P.email) > 1;
+
